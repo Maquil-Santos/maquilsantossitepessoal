@@ -53,6 +53,12 @@
         font-size: 18px;
     }
 
+    .logo p{
+        display:flex;
+        position:relative;
+        top:-5%;
+    }
+
     .logo img{
         display: inline-block;
         margin-top: 10px;
@@ -60,6 +66,13 @@
         height: 150px;
         border-radius: 50%;
         border: 4px solid #D8F9FF;
+    }
+
+    .redes-sociais{
+        display: flex;
+        position: relative;
+        left: 25%;
+        top: -7%;
     }
 
     .redes-sociais img{
@@ -86,7 +99,7 @@
         display: flex;
         position: absolute;
         justify-content: left;
-        left: 5%;
+        left: 0,2%;
         top: 6%;
         height: 400px;
         width: 700px;
@@ -118,7 +131,7 @@
         display: flex;
         position: absolute;
         justify-content: right;
-        left: 50%;
+        left: 48%;
         top: -3%;
         margin: 40px;
         height: 400px;
