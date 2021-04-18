@@ -1,0 +1,413 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+ 
+    .div-apresentacao{
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 4%;
+        justify-content: center;
+        border: 2px solid #D8F9FF;
+        border-radius: 50px;
+        height: 32%;
+        width: 80%;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        text-align: center;
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        display: flex;
+        position: absolute;
+        left: 23%;
+        top: 110%;
+        justify-content: center;
+        border: 2px solid #D8F9FF;
+        border-radius: 50px;
+        height: 32%;
+        width: 50%;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        text-align: center;
+        margin: 20px;
+        color: rgba(9, 9, 75, 0.931);
+        font-size: 18px;
+    }
+
+    .div-apresentacao2{
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 4%;
+        justify-content: center;
+        border: 2px solid #D8F9FF;
+        border-radius: 50px;
+        height: 20%;
+        width: 80%;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        text-align: center;
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .logo img{
+        display: inline-block;
+        margin-top: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid #D8F9FF;
+    }
+
+    .redes-sociais img{
+        border: none;
+        margin: 5px;
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .corpo-pagina{
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        left: 0%;
+        top: 120%;
+        height: 460px;
+        width: 100%;
+        background-color: none;
+    }
+
+    .conteudo-esquerda{
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        left: 5%;
+        top: 6%;
+        height: 400px;
+        width: 700px;
+        border: 1px solid #D8F9FF;
+        background-color: white;
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        font-size: 20px;
+    }
+        
+    .conteudo-esquerda h2{
+        display: flex;
+        position: absolute;
+        left: 25%;
+        top: 5% ;
+    }
+
+    .conteudo-esquerda p{
+        display: flex;
+        position: absolute;
+        top: 20%;
+        text-align: justify;
+        left: 3.3%;
+        padding-right: 20px;
+    }
+
+    .conteudo-direita{
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        display: flex;
+        position: absolute;
+        justify-content: right;
+        left: 50%;
+        top: -3%;
+        margin: 40px;
+        height: 400px;
+        width: 700px;
+        border: 1px solid #D8F9FF;;
+        color: rgba(9, 9, 75, 0.931);
+        background-color: white;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .conteudo-direita h2{
+        display: flex;
+        position: absolute;
+        left: 25%;
+        top: 5%;
+    }
+
+    .conteudo-direita ul{
+        text-align: left;
+        padding-left:40px;
+    }
+    .conteudo-direita ul>li {
+        height:40px;
+        margin-bottom:5px;
+    }
+
+    .conteudo-secao2{
+        display: flex;
+        position: absolute;
+        height: 400px;
+        width: 1000px;
+        top: 20%;
+        font-size: 22px;
+    }
+    
+    #secao-emoji{
+        font-size:40px;
+        padding: -10px;;
+    }
+
+    .secao2-esquerda{
+
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        left: -30%;
+        top: 10%;
+        height: 400px;
+        width: 500px;
+        border: 1px solid #D8F9FF;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .secao2-esquerda h3{
+        left: 25%;
+    }
+
+    .secao2-esquerda p{
+        font-size: 22px;
+        top: 50%;
+    }
+
+    .secao2-meio{
+
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        left: 27.1%;
+        top: 10%;
+        height: 400px;
+        width: 460px;
+        border: 1px solid #D8F9FF;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        padding: 20px;
+    }
+
+    .secao2-meio h3{
+        left: 25%;
+    }
+
+
+    .secao2-direita{
+
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        left: 80%;
+        top: 10%;
+        height: 400px;
+        width: 500px;
+        border: 1px solid #D8F9FF;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        padding: 20px;
+    }
+
+    .secao2-direita h3{
+        left: 25%;
+    }
+
+
+    .conteudo-secao2 h2{
+        display: flex;
+        position: absolute;
+    }  
+
+    .conteudo-secao2 p{
+        display: inline;
+        position: relative;
+        top: 10%;
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .conteudo-secao3-esquerda{
+        display: flex;
+        position: absolute;
+        border: 1px solid black;
+        height: 510px;
+        width: 700px;
+        left: 5%;
+        top: 10%;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .conteudo-secao3-esquerda a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .conteudo-secao3-esquerda h3{
+        left: 40%;
+        font-size: 1.5em;
+
+    }
+
+    .conteudo-secao3-esquerda p{
+        display: inline;
+        position: relative;
+        top: 14%;
+        left: 0%;
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .conteudo-secao3-esquerda input{
+        display: flex;
+        position: absolute;
+        top: 78%;
+        left: 34.2%;
+        text-align: justify;
+        padding: 5px;
+        width: 200px;
+        height: 20px;
+    }
+
+    .conteudo-secao3-esquerda button{
+        display: flex;
+        position: absolute;
+        top: 87%;
+        left: 45.5%;
+        text-align: justify;
+        padding: 5px;
+        height: 35px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .secao3-imagens-esquerda{
+        display: flex;
+        position: absolute;
+        top: 35%;
+        left: 13%;
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao3-imagens-esquerda img{
+        margin: 10px;
+        padding: 1px;
+        border-radius: 10px;
+    }
+
+
+    .conteudo-secao3-direita{
+        display: flex;
+        position: relative;
+        justify-content: justify;
+        border: 1px solid #D8F9FF;
+        height:550px;
+        width: 700px;
+        left: 25%;
+        top: 10%;
+        background-image: url("https://img.elo7.com.br/product/zoom/1C0F203/adesivo-papel-de-parede-geometrico-cinza-prata-escolha-cor.jpg");
+        border-radius: 50px;
+        color: rgba(9, 9, 75, 0.931);
+        font-size: 20px;
+    }
+
+
+    .conteudo-secao3-direita h3{
+        top: 5%;
+        left: 16%;
+        font-size: 1.5em;
+    }
+
+    .conteudo-secao3-direita div{
+        display: inline-flexbox;
+        top: 40%;
+    }
+    
+    .conteudo-secao3-direita input:focus{
+        box-shadow: 0;
+        outline: 0;
+    }
+
+    .alinhar input{
+        padding: 5px;;
+    }
+
+    h3{
+        display: inline;
+        position: absolute;
+    }
+    
+    h2{
+        padding: 5px;
+        margin: 0;
+    }
+
+    /*
+    *** Formatando Rolagem
+    */
+
+    .secao {
+        position: relative;
+    }
+    #secao-01 {
+        background-color: #9c9c9c;
+    }
+    #secao-02 {
+        background-color: #6e6e6e;
+    }
+    #secao-03 {
+        background-color: #5c5c5c;
+    }
+
+    .icone-scroll {
+        position: absolute;
+        bottom: 3em;
+        width: 50px;
+        height: 50px;
+        background-color: #1a1a1a;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -25px;
+        cursor: pointer;
+    }
+    .scroll {
+        width: 15px;
+        height: 15px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        display: inline-block;
+        position: relative;
+    }
+    .scroll-next {
+        transform: rotate(45deg);
+        margin: 14px 0 0 16.5px;
+    }
+    .scroll-top {
+        transform: rotate(225deg);
+        margin: 19px 0 0 17px;
+    }
+    .scroll-top + .scroll-top {
+        top: -15px;
+        margin-top: 0;
+    }
