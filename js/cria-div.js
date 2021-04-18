@@ -1,10 +1,5 @@
 function alertajogo(jogo){
-    if(jogo != "rocket league" || jogo != "Rocket League"){
-        alert("Jogo bom!!");
-    }else{
-        alert("Jogo ruim!!")
-    }
-
+    alert("Esse é um jogo muito bom támbem!")
 }
 
 function verificaTamanhoNome(){
